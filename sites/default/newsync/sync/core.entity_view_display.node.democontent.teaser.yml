@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.democontent.body
+    - field.field.node.democontent.field_new
     - field.field.node.democontent.field_text
     - node.type.democontent
   module:
@@ -29,4 +30,5 @@ content:
     weight: 100
     region: content
 hidden:
+  field_new: true
   field_text: true

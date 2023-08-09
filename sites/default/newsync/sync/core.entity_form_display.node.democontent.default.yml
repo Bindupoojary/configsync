@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.democontent.body
+    - field.field.node.democontent.field_new
     - field.field.node.democontent.field_text
     - node.type.democontent
   module:
@@ -29,6 +30,14 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_new:
+    type: string_textfield
+    weight: 123
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_text:
     type: string_textfield

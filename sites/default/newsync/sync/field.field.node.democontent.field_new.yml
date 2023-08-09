@@ -1,0 +1,19 @@
+uuid: 178cce75-1b29-4599-8bac-6b0685fb749c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_new
+    - node.type.democontent
+id: node.democontent.field_new
+field_name: field_new
+entity_type: node
+bundle: democontent
+label: new
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
