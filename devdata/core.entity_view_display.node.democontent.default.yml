@@ -1,0 +1,46 @@
+uuid: 0edabc92-6867-479c-8c3d-866b26e65a1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.democontent.body
+    - field.field.node.democontent.field_new
+    - field.field.node.democontent.field_text
+    - node.type.democontent
+  module:
+    - text
+    - user
+id: node.democontent.default
+targetEntityType: node
+bundle: democontent
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_new:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_text:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

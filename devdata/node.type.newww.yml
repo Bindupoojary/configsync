@@ -1,0 +1,18 @@
+uuid: c535c1f9-efe9-494a-b429-10c62ed71066
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: newww
+type: newww
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

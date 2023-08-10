@@ -1,0 +1,19 @@
+uuid: 592f37e5-cf92-4bbc-bb01-7db5122e1472
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_txt
+    - node.type.newww
+id: node.newww.field_txt
+field_name: field_txt
+entity_type: node
+bundle: newww
+label: txt
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
