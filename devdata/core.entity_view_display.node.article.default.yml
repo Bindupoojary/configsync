@@ -8,14 +8,11 @@ dependencies:
     - field.field.node.article.comment
     - field.field.node.article.field_advanced
     - field.field.node.article.field_image
-    - field.field.node.article.field_integer
-    - field.field.node.article.field_paraaa
     - field.field.node.article.field_tags
     - image.style.article_img
     - node.type.article
   module:
     - comment
-    - entity_reference_revisions
     - image
     - text
     - user
@@ -62,24 +59,6 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: -1
-    region: content
-  field_integer:
-    type: number_integer
-    label: above
-    settings:
-      thousand_separator: ''
-      prefix_suffix: true
-    third_party_settings: {  }
-    weight: 114
-    region: content
-  field_paraaa:
-    type: entity_reference_revisions_entity_view
-    label: above
-    settings:
-      view_mode: default
-      link: ''
-    third_party_settings: {  }
-    weight: 111
     region: content
   field_tags:
     type: entity_reference_label
