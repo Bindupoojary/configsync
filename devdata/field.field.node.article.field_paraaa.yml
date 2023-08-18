@@ -1,0 +1,31 @@
+uuid: 9a297733-137d-442b-9c82-a992b34e5aec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paraaa
+    - node.type.article
+    - paragraphs.paragraphs_type.paraclone
+  module:
+    - entity_reference_revisions
+id: node.article.field_paraaa
+field_name: field_paraaa
+entity_type: node
+bundle: article
+label: paraaa
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      paraclone: paraclone
+    negate: 0
+    target_bundles_drag_drop:
+      paraclone:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

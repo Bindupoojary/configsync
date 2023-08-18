@@ -1,0 +1,8 @@
+# Schema for the configuration files of the [A[A[B[Blastname_check module.
+lastname_check.settings:
+  type: config_object
+  label: '[A[A[B[Blastname_check settings'
+  mapping:
+    example:
+      type: string
+      label: 'Example'

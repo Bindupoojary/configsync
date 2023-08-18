@@ -1,12 +1,18 @@
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
+  admin_toolbar: 0
+  admin_toolbar_links_access_filter: 0
+  admin_toolbar_search: 0
+  admin_toolbar_tools: 0
+  advanced: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
   block_content: 0
   breakpoint: 0
   ckeditor5: 0
+  clonetask: 0
   comment: 0
   config: 0
   contact: 0
@@ -15,6 +21,7 @@ module:
   dblog: 0
   dynamic_page_cache: 0
   editor: 0
+  entity_reference_revisions: 0
   field: 0
   field_ui: 0
   file: 0
@@ -22,19 +29,28 @@ module:
   help: 0
   history: 0
   image: 0
+  integertask: 0
+  lastname_check: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0
+  moduletask: 0
   mysql: 0
+  newdropdown: 0
   node: 0
+  nodetask: 0
   options: 0
   page_cache: 0
   path: 0
   path_alias: 0
+  quick_node_clone: 0
+  reference: 0
+  role_content: 0
   search: 0
   shortcut: 0
   system: 0
   taxonomy: 0
+  templatetask: 0
   text: 0
   toolbar: 0
   tour: 0
@@ -42,6 +58,7 @@ module:
   user: 0
   views_ui: 0
   views: 10
+  paragraphs: 11
   standard: 1000
 theme:
   olivero: 0

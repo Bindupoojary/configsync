@@ -1,0 +1,10 @@
+uuid: a47b0083-fcdb-4d83-bea7-aee6a108d112
+langcode: en
+status: true
+dependencies: {  }
+id: paraclone
+label: paraclone
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

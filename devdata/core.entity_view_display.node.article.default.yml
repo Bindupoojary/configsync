@@ -6,13 +6,18 @@ dependencies:
     - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_advanced
     - field.field.node.article.field_image
+    - field.field.node.article.field_integer
+    - field.field.node.article.field_paraaa
     - field.field.node.article.field_tags
     - image.style.wide
     - node.type.article
   module:
     - comment
+    - entity_reference_revisions
     - image
+    - integertask
     - text
     - user
 _core:
@@ -38,16 +43,42 @@ content:
     third_party_settings: {  }
     weight: 110
     region: content
+  field_advanced:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 113
+    region: content
   field_image:
     type: image
     label: hidden
     settings:
-      image_style: wide
       image_link: ''
+      image_style: wide
       image_loading:
         attribute: lazy
     third_party_settings: {  }
     weight: -1
+    region: content
+  field_integer:
+    type: new_integer_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 112
+    region: content
+  field_paraaa:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 111
     region: content
   field_tags:
     type: entity_reference_label

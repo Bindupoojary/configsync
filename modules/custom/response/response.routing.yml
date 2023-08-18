@@ -1,0 +1,7 @@
+response.settings_form:
+  path: '/admin/config/system/response'
+  defaults:
+    _title: 'response settings'
+    _form: 'Drupal\response\Form\SettingsForm'
+  requirements:
+    _permission: 'administer response configuration'
