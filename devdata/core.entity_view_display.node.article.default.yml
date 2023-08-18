@@ -11,7 +11,7 @@ dependencies:
     - field.field.node.article.field_integer
     - field.field.node.article.field_paraaa
     - field.field.node.article.field_tags
-    - image.style.wide
+    - image.style.article_img
     - node.type.article
   module:
     - comment
@@ -58,7 +58,7 @@ content:
     label: hidden
     settings:
       image_link: ''
-      image_style: wide
+      image_style: article_img
       image_loading:
         attribute: lazy
     third_party_settings: {  }
