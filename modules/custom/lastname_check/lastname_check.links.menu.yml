@@ -1,6 +1,0 @@
-lastname_check.settings_form:
-  title: '[A[A[B[Blastname_check'
-  description: 'Configure [A[A[B[Blastname_check.'
-  parent: system.admin_config_system
-  route_name: lastname_check.settings_form
-  weight: 10

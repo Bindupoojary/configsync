@@ -17,7 +17,6 @@ dependencies:
     - comment
     - entity_reference_revisions
     - image
-    - integertask
     - text
     - user
 _core:
@@ -65,11 +64,13 @@ content:
     weight: -1
     region: content
   field_integer:
-    type: new_integer_formatter
+    type: number_integer
     label: above
-    settings: {  }
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
     third_party_settings: {  }
-    weight: 112
+    weight: 114
     region: content
   field_paraaa:
     type: entity_reference_revisions_entity_view

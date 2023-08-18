@@ -1,5 +1,0 @@
-name: templatetask
-type: module
-description: task
-package: Custom
-core_version_requirement: ^9 || ^10

@@ -1,5 +1,0 @@
-name: advanced
-type: module
-description: advanced prepopulate
-package: Custom
-core_version_requirement: ^9 || ^10
